@@ -1,4 +1,48 @@
-# Backend JAVA
+# Backend Java
+
+## Práctica Line Up (Multihilos)
+
+Diseñar el line up de un concierto. Se debe contemplar la presentacion de cada artista, canciones, imagen, etc. 
+
+**NOTA:**
+
+Para esta práctica se utilizo el framework `inmosh`, el cual no se encuentra en el repositorio debido a que es privado.
+
+Para hacer uso de este, se añadieron los archivos del framework en un paquete nombrado imonsh. 
+
+Para realizar está práctica se utilizaron canciones de las bandas `Avatar`, `Lacrimosa`, `Rammstein` y `Slipknot` las cuales no se incluyen en el repositorio debido a los derechos de autor.
+
+### Entregables 
+
+### Clases:
+
+[Clase Banda](./practicaLineUp/Banda.java)
+
+[Clase Avatar](./practicaLineUp/Avatar.java)
+
+[Clase Lacrimosa](./practicaLineUp/Lacrimosa.java)
+
+[Clase Rammstein](./practicaLineUp/Rammstein.java)
+
+[Clase Slipknot](./practicaLineUp/Slipknot.java)
+
+[Interfaz PresentacionBanda](./practicaLineUp/presentacionBanda.java)
+
+[Clase Concierto](./practicaLineUp/Concierto.java)
+
+### Programa funcionando:
+
+**NOTA:**
+
+Para ver el programa funcionando dar [clic aquí](https://vimeo.com/707448381) o en el gif que se muestra a continuación: 
+
+[![ejecucion-lineup](./practicaLineUp/Lineup.gif)](https://vimeo.com/707448381)
+
+[Video del programa funcionando](./practicaLineUp/Lineup.mp4)
+
+### Diagramas:
+![diagrama-lineup1](./practicaLineUp/Lineup.png)
+![diagrama-lineup2](./practicaLineUp/LineupUML.png)
 
 ## Práctica Cómic (Hilos)
 
@@ -12,7 +56,7 @@ Para hacer uso de este, se añadieron los archivos del framework en un paquete n
 
 Para realizar está práctica se utilizaron imágenes del cómic `The Umbrella Academy #0 First Appearance Free Comic Book Day 2007` las cuales no se incluyen en el repositorio debido a los derechos de autor.
 
-### Entregables: 
+### Entregables 
 
 ### Clases:
 
@@ -29,10 +73,9 @@ Para realizar está práctica se utilizaron imágenes del cómic `The Umbrella A
 
 [Video del programa funcionando](./practicaComic/Comic.mp4)
 
-### Diagramas
+### Diagramas:
 ![diagrama-comic1](./practicaComic/Comic.png)
 ![diagrama-comic2](./practicaComic/ComicUML.png)
-
 
 ## Práctica Multiverse (Interfaces)
 
@@ -44,7 +87,7 @@ Para esta práctica se utilizo el framework `inmosh`, el cual no se encuentra en
 
 Para hacer uso de este, se añadieron los archivos del framework en un paquete nombrado imonsh. 
 
-### Entregables: 
+### Entregables 
 
 ### Clases:
 
@@ -69,7 +112,7 @@ Para hacer uso de este, se añadieron los archivos del framework en un paquete n
 
 [Video del programa funcionando](./practicaMultiverse/Spiderverse.mp4)
 
-### Diagramas
+### Diagramas:
 ![diagrama-spiderverse1](./practicaMultiverse/Spiderverse.png)
 ![diagrama-spiderverse2](./practicaMultiverse/SpiderverseUML.png)
 
@@ -79,7 +122,7 @@ Modelar 6 versiones de Mona The Octocat que extienden de la clase Mona
 
 ![personajes-mona](./practicaMona/Monas.png)
 
-### Entregables: 
+### Entregables
 
 ### Clases:
 
@@ -102,7 +145,7 @@ Modelar 6 versiones de Mona The Octocat que extienden de la clase Mona
 ### Programa funcionando:
 ![ejecucion-mona](./practicaMona/MonaMain.gif)
 
-### Diagramas
+### Diagramas:
 ![diagrama-mona1](./practicaMona/Mona.png)
 ![diagrama-mona2](./practicaMona/MonaUML.png)
 
@@ -110,7 +153,7 @@ Modelar 6 versiones de Mona The Octocat que extienden de la clase Mona
 
 Modelar 5 personajes de la saga Harry Potter que se definan por constructor o setters y getters.
 
-### Entregables: 
+### Entregables 
 
 ### Clases:
 
@@ -121,7 +164,7 @@ Modelar 5 personajes de la saga Harry Potter que se definan por constructor o se
 ### Programa funcionando:
 ![ejecucion-harry](./practicaHarry/WizardTest.gif)
 
-### Diagramas
+### Diagramas:
 ![diagrama-harry1](./practicaHarry/Wizard.png)
 ![diagrama-harry2](./practicaHarry/WizardUML.png)
 
@@ -131,7 +174,7 @@ Modelar 4 personajes del anime Jujutsu Kaisen que se definan por constructor o s
 
 ![personajes-jujutsu](./practicaJujutsu/jujutsukaisen.jpg)
 
-### Entregables: 
+### Entregables 
 
 ### Clases:
 
@@ -142,7 +185,7 @@ Modelar 4 personajes del anime Jujutsu Kaisen que se definan por constructor o s
 ### Programa funcionando:
 ![ejecucion-jujutsu](./practicaJujutsu/PruebaHechicero.gif)
 
-### Diagramas
+### Diagramas:
 ![diagrama-jujutsu1](./practicaJujutsu/Hechicero.png)
 ![diagrama-jujutsu2](./practicaJujutsu/HechiceroUML.png)
 
@@ -152,7 +195,7 @@ Modelar 3 personajes del anime Kimetsu no Yaiba que se definan por constructor o
 
 ![personajes-kimetsu](./practicaCazador/kimetsu.jpg)
 
-### Entregables: 
+### Entregables 
 
 ### Clases:
 
@@ -163,6 +206,6 @@ Modelar 3 personajes del anime Kimetsu no Yaiba que se definan por constructor o
 ### Programa funcionando:
 ![ejecucion-cazador](./practicaCazador/PruebaCazador.png)
 
-### Diagramas
+### Diagramas:
 ![diagrama-cazador1](./practicaCazador/Cazador.png)
 ![diagrama-cazador2](./practicaCazador/CazadorUML.png)
